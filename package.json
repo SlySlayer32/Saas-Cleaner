@@ -1,0 +1,29 @@
+{
+    "name": "cleaning-business-saas-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Cleaning Business SaaS",
+    "main": "src/index.ts",
+    "scripts": {
+      "start": "ts-node src/index.ts",
+      "dev": "nodemon src/index.ts",
+      "build": "tsc",
+      "test": "node tests/root.test.js && node tests/test-db.test.js && node tests/auth.test.js && node tests/clients.test.js && node tests/appointments.test.js && node tests/invoices.test.js && node tests/teamMembers.test.js",
+      "test:users": "node tests/users.test.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.0"
+    },
+    "devDependencies": {
+      "@types/express": "^4.17.17",
+      "@types/jsonwebtoken": "^9.0.2",
+      "@types/node": "^20.2.5",
+      "nodemon": "^2.0.22",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.0.4"
+    }
+  }
