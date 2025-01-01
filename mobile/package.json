@@ -1,0 +1,11 @@
+
+  {
+    "name": "cleaningbusinessmobile",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "lint": "eslint .",
+      "start": "react-native start",
+      "test": "node ./src/components/Auth/__tests__/Registration.test.js && node ./src/components/Auth/__tests__/Login.test.js && node ./src/components/Auth/__tests__/Logout.test.js && node ./src/components/Clients/__tests__/ClientList.test.js && node ./src/components/Clients/__tests__/ClientForm.test
